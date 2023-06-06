@@ -12,7 +12,7 @@ const Header = () => {
     const  {isOpen,setIsOpen,amount}   = useCart()
     
   return (
-    <header className='container flex items-center justify-between p-4  lg:p-6 px-8 mx-auto bg-white lg:border-b lg:max-w-screen-md xl:max-w-[1200px]'>
+    <header className='container flex items-center justify-between p-4  lg:p-6 px-8 mx-auto bg-white lg:border-b lg:max-w-screen-md xl:max-w-[1150px]'>
       <div className='flex items-center justify-between w-44'>
 
         <div onClick={()=> setOpen(!open)} className='cursor-pointer lg:hidden'> <FiMenu className='text-xl'/> </div>
@@ -24,7 +24,7 @@ const Header = () => {
 
       <div className={ `${open? 'left-0': '-left-full'} fixed top-0 z-40 w-1/2 h-full p-6 lg:h-16 lg:w-[500px]  lg:relative lg:bg-transparent lg:shadow-none lg:-left-[5%] xl:-left-[19%] lg:-top-1 bg-white rounded-md shadow-xl transition-all duration-300`}>
         <div onClick={()=> setOpen(!open)} className='mb-8 cursor-pointer lg:hidden'> <IoMdClose className='text-2xl text-varkBlue '/> </div>
-        <ul className='flex flex-col justify-around h-56 text-xl font-bold lg:font-normal lg:text-base xl:text-xl text-varkBlue lg:text-darkblue lg:flex-row '>
+        <ul className='flex flex-col justify-around h-56 text-xl font-bold lg:font-normal lg:text-base xl:text-lg text-varkBlue lg:text-darkblue lg:flex-row '>
             <li className='lg:h-[4.3rem] lg:hover:border-b-8 border-primary transition-all duration-150 cursor-pointer'>Collections</li>
             <li className='lg:h-[4.3rem] lg:hover:border-b-8 border-primary transition-all duration-150 cursor-pointer'>Men</li>
             <li className='lg:h-[4.3rem] lg:hover:border-b-8 border-primary transition-all duration-150 cursor-pointer'>Women</li>
