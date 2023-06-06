@@ -8,10 +8,10 @@ const Home = () => {
   const {addToCart,increase,decrease,amount} = useCart()
   return (
     <main >
-        <section className='justify-between mx-auto lg:container lg:max-w-screen-md xl:max-w-[1050px] xl:pl-4 lg:flex lg:py-16 xl:pt-20  '>
+        <section className='justify-between mx-auto lg:container lg:max-w-screen-md xl:max-w-[1050px] xl:pl-4 lg:flex lg:py-16 xl:pt-[5.5rem]  '>
           <ImageSlider/>
 
-          <div className='px-8 pt-4 lg:pt-8 xl:pt-8 lg:px-0 lg:w-1/2 xl:pl-12 '>
+          <div className='px-8 pt-4 lg:pt-8 xl:pt-11 lg:px-0 lg:w-1/2 xl:pl-12 '>
 
             <div className='lg:max-w-xl'>
 
