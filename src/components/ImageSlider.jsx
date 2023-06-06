@@ -59,24 +59,24 @@ const ImageSlider = () => {
 
         {/* thumbnill */} 
         <div className='justify-between hidden w-full mt-8 lg:flex'>
-            <div onClick={()=>handleClick(0)} className={`${isDisplay === 0? 'box-border border-4 border-primary ' : ''} w-24 overflow-hidden  cursor-pointer  rounded-2xl transition-all duration-150 group relative`}>
+            <div onClick={()=>handleClick(0)} className={`${isDisplay === 0? 'box-border border-2 border-primary ' : ''} w-24 overflow-hidden  cursor-pointer  rounded-2xl transition-all duration-150 group relative`}>
                 <img src={th1} alt='thumbnail' className='w-24 ' />
                 <div  className={`${isDisplay === 0? 'bg-white' : 'bg-transparent opacity-0'}  absolute top-0 left-0 w-full h-full transition-all duration-150  opacity-50 hover:opacity-70 group-hover:bg-white`} > </div>
             </div>
 
-            <div onClick={()=>handleClick(1)} className={`${isDisplay === 1? 'box-border border-4 border-primary ' : ''} w-24 overflow-hidden  cursor-pointer  rounded-2xl transition-all duration-150 relative group`}>
+            <div onClick={()=>handleClick(1)} className={`${isDisplay === 1? 'box-border border-2 border-primary ' : ''} w-24 overflow-hidden  cursor-pointer  rounded-2xl transition-all duration-150 relative group`}>
                 <img src={th2} alt='thumbail' className='w-24 '  />
                 <div  className={`${isDisplay === 1? 'bg-white' : 'bg-transparent opacity-0'}  absolute top-0 left-0 w-full h-full transition-all duration-150  opacity-50 hover:opacity-70 group-hover:bg-white`} > </div>
 
             </div>
 
-            <div onClick={()=>handleClick(2)} className={`${isDisplay === 2? 'box-border border-4 border-primary ' : ''} w-24 overflow-hidden  cursor-pointer  rounded-2xl transition-all duration-150 relative group`}>
+            <div onClick={()=>handleClick(2)} className={`${isDisplay === 2? 'box-border border-2 border-primary ' : ''} w-24 overflow-hidden  cursor-pointer  rounded-2xl transition-all duration-150 relative group`}>
                 <img src={th3} alt='thumbail' className='w-24 '  />
                 <div  className={`${isDisplay === 2? 'bg-white' : 'bg-transparent opacity-0'}  absolute top-0 left-0 w-full h-full transition-all duration-150  opacity-50 hover:opacity-70 group-hover:bg-white`} > </div>
 
             </div>
 
-            <div onClick={()=>handleClick(3)} className={`${isDisplay === 3? 'box-border border-4 border-primary ' : ''} w-24 overflow-hidden  cursor-pointer  rounded-2xl transition-all duration-150 relative group`}>
+            <div onClick={()=>handleClick(3)} className={`${isDisplay === 3? 'box-border border-2 border-primary ' : ''} w-24 overflow-hidden  cursor-pointer  rounded-2xl transition-all duration-150 relative group`}>
                 <img src={th4} alt='thumbail' className='w-24 '  />
                 <div  className={`${isDisplay === 3? 'bg-white opacity-50 ' : 'bg-transparent '}  top-0  absolute left-0 w-full h-full transition-all duration-150   hover:opacity-70 group-hover:bg-white `} > </div>
 

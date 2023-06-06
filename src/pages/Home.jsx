@@ -11,7 +11,7 @@ const Home = () => {
         <section className='justify-between mx-auto lg:container lg:max-w-screen-md xl:max-w-[1050px] xl:pl-4 lg:flex lg:py-16 xl:pt-[5.5rem]  '>
           <ImageSlider/>
 
-          <div className='px-8 pt-4 lg:pt-12 xl:pt-12 lg:px-0 lg:w-1/2 xl:pl-12 '>
+          <div className='px-8 pt-4 lg:pt-12 xl:pt-[3.3rem] lg:px-0 lg:w-1/2 xl:pl-12 '>
 
             <div className='lg:max-w-xl'>
 
