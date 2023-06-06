@@ -12,7 +12,7 @@ const Header = () => {
     const  {isOpen,setIsOpen,amount}   = useCart()
     
   return (
-    <header className='container flex items-center justify-between p-4  lg:p-6 px-8 mx-auto bg-white lg:border-b lg:max-w-screen-md xl:max-w-[1100px]'>
+    <header className='container flex items-center justify-between p-4 xl:pr-0  lg:p-6 px-8 mx-auto bg-white lg:border-b lg:max-w-screen-md xl:max-w-[1100px]'>
       <div className='flex items-center justify-between w-44'>
 
         <div onClick={()=> setOpen(!open)} className='cursor-pointer lg:hidden'> <FiMenu className='text-xl'/> </div>
