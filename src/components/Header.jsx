@@ -33,7 +33,7 @@ const Header = () => {
         </ul>
       </div>
 
-      <div className='flex items-center justify-between w-32 '>
+      <div className='flex items-center justify-between w-24 lg:w-32 '>
         <div onClick={()=>setIsOpen(!isOpen)} className='relative cursor-pointer'>
           <BsCart3 className='text-2xl'/>
           <div className={`${amount === 0 ? 'hidden':'absolute'} w-6 text-sm text-center text-white rounded-lg -right-3 -top-2 transition-all duration-300 bg-primary`}>{amount}</div>

@@ -30,15 +30,15 @@ const Home = () => {
               <div className='text-xl font-bold line-through text-grayishBule'>$250.00</div>
             </div>
 
-            <div className='items-center lg:flex'>
+            <div className='items-center md:flex' >
 
-                <div className='flex items-center justify-between p-4 mb-8 lg:w-1/3 lg:mb-0 rounded-xl bg-lightBlue'>
+                <div className='flex items-center justify-between p-4 mb-8 md:w-1/3 md:mb-0 rounded-xl bg-lightBlue'>
                 <div onClick={()=> decrease()} className='flex items-center justify-center w-1/3 text-2xl cursor-pointer text-primary' > <IoMdRemove/>  </div>
                 <div className='flex items-center justify-center w-1/3 text-xl font-bold text-varkBlue' >{amount}</div>
                 <div onClick={()=> increase()} className='flex items-center justify-center w-1/3 text-2xl cursor-pointer text-primary' >  <IoMdAdd/>  </div>
                 </div>
 
-                <div className='flex items-center lg:w-2/3 lg:ml-4 lg:max-w-[350px]'>
+                <div className='flex items-center md:w-2/3 md:ml-4 lg:max-w-[350px]'>
                 <button onClick={()=>addToCart()} className='flex items-center justify-center w-full p-4 font-semibold text-white shadow-xl shadow-orange-200 rounded-xl bg-primary hover:bg-orange-400 font-primary'>
                     <BsCart3 className='mr-3 text-xl font-semibold'/>
                     <span>Add to cart </span> 
