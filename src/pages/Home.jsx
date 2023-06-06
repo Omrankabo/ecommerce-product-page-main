@@ -8,10 +8,10 @@ const Home = () => {
   const {addToCart,increase,decrease,amount} = useCart()
   return (
     <main >
-        <section className='justify-between mx-auto lg:container lg:max-w-screen-md xl:max-w-[1150px] lg:flex lg:py-24  '>
+        <section className='justify-between mx-auto lg:container lg:max-w-screen-md xl:max-w-[1150px] xl:pl-4 lg:flex lg:py-16 xl:pt-28  '>
           <ImageSlider/>
 
-          <div className='px-8 py-4 lg:py-8 xl:py-12 lg:px-0 lg:w-1/2'>
+          <div className='px-8 pt-4 lg:pt-12 xl:pt-16 lg:px-0 lg:w-1/2 xl:pl-9 '>
 
             <div className='lg:max-w-xl'>
 
@@ -39,7 +39,7 @@ const Home = () => {
                 </div>
 
                 <div className='flex items-center lg:w-2/3 lg:ml-4 lg:max-w-[350px]'>
-                <button onClick={()=>addToCart()} className='flex items-center justify-center w-full p-4 font-semibold text-white shadow-xl shadow-orange-300 rounded-xl bg-primary hover:bg-orange-400 font-primary'>
+                <button onClick={()=>addToCart()} className='flex items-center justify-center w-full p-4 font-semibold text-white shadow-xl shadow-orange-200 rounded-xl bg-primary hover:bg-orange-400 font-primary'>
                     <BsCart3 className='mr-3 text-xl font-semibold'/>
                     <span>Add to cart </span> 
                 </button>

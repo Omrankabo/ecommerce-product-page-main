@@ -6,7 +6,7 @@ export default {
   ],
   theme: {
     fontFamily: {
-      primary: ['Poppins' , 'sans-serif'],
+      primary: ['inter' , 'sans-serif'],
     },
     screens: {
       sm: '640px',
