@@ -8,15 +8,15 @@ const Home = () => {
   const {addToCart,increase,decrease,amount} = useCart()
   return (
     <main >
-        <section className='justify-between mx-auto lg:container lg:max-w-screen-md xl:max-w-[1050px] xl:pl-4 lg:flex lg:py-16 xl:pt-28  '>
+        <section className='justify-between mx-auto lg:container lg:max-w-screen-md xl:max-w-[1050px] xl:pl-4 lg:flex lg:py-16 xl:pt-20  '>
           <ImageSlider/>
 
-          <div className='px-8 pt-4 lg:pt-12 xl:pt-10 lg:px-0 lg:w-1/2 xl:pl-12 '>
+          <div className='px-8 pt-4 lg:pt-8 xl:pt-8 lg:px-0 lg:w-1/2 xl:pl-12 '>
 
             <div className='lg:max-w-xl'>
 
-              <div className='mb-4 font-semibold tracking-widest uppercase text-primary font-primary lg:mb-4 xl:mb-8'> Sneaker Company</div>
-              <h1 className='mb-4 text-3xl font-bold lg:mb-4  xl:text-4xl lg:max-w-[580px] xl:mb-8 font-primary text-varkBlue'>Fall Limited Edition Sneakers</h1>
+              <div className='mb-4 text-sm font-semibold tracking-widest uppercase text-primary font-primary lg:mb-4 xl:mb-6'> Sneaker Company</div>
+              <h1 className='mb-4 text-3xl font-bold lg:mb-4  xl:text-5xl lg:max-w-[580px] xl:mb-8 font-primary text-varkBlue'>Fall Limited Edition Sneakers</h1>
               <p className='mb-8 text-base font-primary text-darkblue lg:max-w-[550px] leading-6'>These low-profile sneakers are your perfect casual wear companion. Featuring a 
               durable rubber outer sole, they’ll withstand everything the weather can offer.
               </p>
@@ -27,7 +27,7 @@ const Home = () => {
                 <div className='text-3xl font-bold font-primary text-varkBlue'>$125.00</div>
                 <div className='px-2 py-1 ml-8 font-bold rounded-md bg-secondary text-primary'>50%</div>
               </div>
-              <div className='text-xl font-bold line-through text-grayishBule'>$250.00</div>
+              <div className='text-xl font-bold line-through text-grayishBule lg:text-lg'>$250.00</div>
             </div>
 
             <div className='items-center md:flex' >
